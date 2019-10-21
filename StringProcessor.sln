@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringProcessor.Console.Demo", "StringProcessor.Demo\StringProcessor.Console.Demo.csproj", "{EA0FD715-AA81-47AF-8C36-282A3437176B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringProcessor.Console.Demo", "StringProcessor.Console.Demo\StringProcessor.Console.Demo.csproj", "{EA0FD715-AA81-47AF-8C36-282A3437176B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99C65640-00AF-4A7A-B753-018E9AEBCE8F}"
 	ProjectSection(SolutionItems) = preProject
