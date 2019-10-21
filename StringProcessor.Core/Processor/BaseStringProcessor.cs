@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 using StringProcessor.Core.CustomCollections;
 using StringProcessor.Core.ProcessingStage;
 
@@ -14,7 +13,6 @@ namespace StringProcessor.Core.Processor
         public abstract event ProcessFinishedEventHandler ProcessingFinished;
 
         protected IProcessorQueue<IProcessingStage> ProcessorQueue { get; set; }
-        public ISynchronizeInvoke SynchronizingObject { get; set; }
 
         protected BaseStringProcessor(string[] strings, IProcessingStage[] processingStages, int limit)
         {
