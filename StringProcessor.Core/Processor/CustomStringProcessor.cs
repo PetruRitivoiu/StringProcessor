@@ -49,7 +49,10 @@ namespace StringProcessor.Core.Processor
                 string tempStr = str;
                 foreach (var stage in ProcessorQueue.ToReadOnlyCollection())
                 {
-                    tempStr = stage.Process(str);
+                    if (stage != null)
+                    {
+                        tempStr = stage.Process(str);
+                    }
                 }
 
                 sb.Append(tempStr).Append(Environment.NewLine);
