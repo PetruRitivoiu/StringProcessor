@@ -43,6 +43,8 @@ namespace StringProcessor.Core.Processor
 
         public override void StartProcessing()
         {
+            Validate();
+
             var sb = new StringBuilder();
             foreach (var str in strings)
             {

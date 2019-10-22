@@ -38,9 +38,9 @@ namespace StringProcessor.Demo
 
         private IStringProcessor[] createMultipleProcessors(int count, string[] strings)
         {
-            var processors = new IStringProcessor[4];
+            var processors = new IStringProcessor[numberOfThreads];
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < numberOfThreads; i++)
             {
                 processors[i] = CustomStringProcessor.FactoryCreate(cfg =>
                 {

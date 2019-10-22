@@ -21,8 +21,6 @@ namespace StringProcessor.Core.Processor
 
             ProcessorQueue = new ProcessorQueue<IProcessingStage>(limit);
             InitQueue();
-
-            Validate();
         }
 
         protected void InitQueue()
