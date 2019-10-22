@@ -46,7 +46,7 @@ namespace StringProcessor.Demo
                 {
                     cfg.Strings = strings;
 
-                    cfg.Stage1 = new CustomProcessingStage("stage1", str => str + "1"
+                    cfg.Stage1 = new CustomProcessingStage("stage1", str => str + "_1"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
                     cfg.Stage2 = new CustomProcessingStage("stage2", str => str + "2"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());

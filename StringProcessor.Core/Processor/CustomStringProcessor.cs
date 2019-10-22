@@ -53,7 +53,7 @@ namespace StringProcessor.Core.Processor
                 {
                     if (stage != null)
                     {
-                        tempStr = stage.Process(str);
+                        tempStr = stage.Process(tempStr);
                     }
                 }
 
