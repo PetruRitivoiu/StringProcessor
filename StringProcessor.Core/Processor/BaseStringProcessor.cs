@@ -12,7 +12,7 @@ namespace StringProcessor.Core.Processor
 
         public abstract event ProcessFinishedEventHandler ProcessingFinished;
 
-        protected IProcessorQueue<IProcessingStage> ProcessorQueue { get; set; }
+        public IProcessorQueue<IProcessingStage> ProcessorQueue { get; }
 
         protected BaseStringProcessor(string[] strings, IProcessingStage[] processingStages, int limit)
         {
