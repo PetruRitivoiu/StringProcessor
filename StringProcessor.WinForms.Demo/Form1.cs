@@ -82,6 +82,9 @@ namespace StringProcessor.WinForms.Demo
                 if (InvokeRequired)
                 {
                     BeginInvoke(new Action(() => processStatus_lv.Items.Add(message)));
+                } else
+                {
+                    processStatus_lv.Items.Add(message);
                 }
             }
         }
