@@ -48,13 +48,13 @@ namespace StringProcessor.Demo
 
                     cfg.Stage1 = new CustomProcessingStage("stage1", str => str + "_1"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
-                    cfg.Stage2 = new CustomProcessingStage("stage2", str => str + "2"
+                    cfg.Stage2 = new CustomProcessingStage("stage2", str => str + "_2"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
-                    cfg.Stage3 = new CustomProcessingStage("stage3", str => str + "3"
+                    cfg.Stage3 = new CustomProcessingStage("stage3", str => str + "_3"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
-                    cfg.Stage4 = new CustomProcessingStage("stage4", str => str + "4"
+                    cfg.Stage4 = new CustomProcessingStage("stage4", str => str + "_4"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
-                    cfg.Stage5 = new CustomProcessingStage("stage5", str => str + "5"
+                    cfg.Stage5 = new CustomProcessingStage("stage5", str => str + "_5"
                         , loggerFactory.CreateLogger<CustomProcessingStage>());
                 });
 
